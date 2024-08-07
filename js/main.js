@@ -180,26 +180,5 @@
                       );
                     setTimeout(function() {
                         location.reload();
-                    }, 1500);
-                    // var body =
-                    //   "Name: " + name + "<br/>Email: " + email + "<br/>Message: " + message;
-                    
-                    // Email.send({
-                    //   SecureToken: "76e5a36c-c9a1-4982-8c85-65bab256e48f",
-                    //   To: "moeezabd2708@gmail.com",
-                    //   From: "moeezabd2708@gmail.com",
-                    //   Subject: "A New Message From Your Site",
-                    //   Body: "And this is the body" + body,
-                    // });
-                    // Email.send({
-                    //     Host : "smtp.mailcoat.com",
-                    //     Username : "moeezabd2708@gmail.com",
-                    //     Password : "13e38d8e35f19af835ca",
-                    //     To : "moeezabd2708@example.com",
-                    //     From : "moeezabd2708@gmail.com",
-                    //     Subject : "This is the subject",
-                    //     Body : "And this is the body" + body
-                    // }).then(
-                    //   message => alert(message)
-                    // );
+                    }, 2500);
                   }
